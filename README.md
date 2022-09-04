@@ -8,7 +8,7 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Emmastro/AirBnB_clone/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Adolawuyi/AirBnB_clone/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github./pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
@@ -48,7 +48,7 @@ Python3
 Clone this reposito
 
 ```
-git clone git@github.com:Emmastro/AirBnB_clone.git
+git clone git@github.com:Adolawuyi/AirBnB_clone.git
 cd AirBnB_clone
 ./console.py
 ```
@@ -125,5 +125,5 @@ The following commands are supported:
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@Dirac156](https://github.com/Dirac156) - Dirac Murairi
-- [@Emmastro](https://github.com/Emmastro) - Emmanuel Murairi
+- [@Adolawuyi](https://github.com/Adolawuyi) - David Olawuyi
+
