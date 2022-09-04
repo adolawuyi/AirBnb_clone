@@ -1,12 +1,11 @@
 footer {
     background-color: #00FF00;
-    height: 60px;
     width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-}
-
-footer p {
-    vertical-align: middle;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 0%;
 }

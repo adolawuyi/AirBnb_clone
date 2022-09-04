@@ -1,13 +1,9 @@
 header {
-    height: 70px;
+    height: 70px; 
     width: 100%;
-    border-bottom-width: 1px;
-    border-color: #CCCCCC;
-    border-bottom: solid;
-}
-
-.logo{
-    content: url(../images/logo.png);
-    margin-left: 20px;
-    vertical-align: middle;
+    border-bottom: 1px solid #CCCCCC;
+    background: white url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    flex-shrink: 0;
 }

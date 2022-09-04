@@ -1,26 +1,40 @@
 #!/usr/bin/python3
 """
-Test file for user class
+Unittest for review.py
 """
-
 import unittest
 from models.review import Review
-from models.base_model import BaseModel
+import datetime
 
 
-class TestClass(unittest.TestCase):
-    """Test cases"""
+class TestReview(unittest.TestCase):
+    """Tests instances and methods from Review class"""
 
-    def test_create_istance(self):
-        """create a new instance"""
-        new_state = Review()
-        self.assertIsInstance(new_state, Review)
+    r = Review()
 
-    def test_create_istance2(self):
-        """create a new instance"""
-        new_state = Review()
-        self.assertIsInstance(new_state, BaseModel)
+    def test_class_exists(self):
+        """tests if class exists"""
+        res = "<class 'models.review.Review'>"
+        self.assertEqual(str(type(self.r)), res)
 
+    def test_user_inheritance(self):
+        """test if Review is a subclass of BaseModel"""
+        self.assertIsInstance(self.r, Review)
 
-if __name__ == '__main__':
-    unittest.main()
+    def testHasAttributes(self):
+        """verify if attributes exist"""
+        self.assertTrue(hasattr(self.r, 'place_id'))
+        self.assertTrue(hasattr(self.r, 'user_id'))
+        self.assertTrue(hasattr(self.r, 'text'))
+        self.assertTrue(hasattr(self.r, 'id'))
+        self.assertTrue(hasattr(self.r, 'created_at'))
+        self.assertTrue(hasattr(self.r, 'updated_at'))
+
+    def test_types(self):
+        """tests if the type of the attribute is the correct one"""
+        self.assertIsInstance(self.r.place_id, str)
+        self.assertIsInstance(self.r.user_id, str)
+        self.assertIsInstance(self.r.text, str)
+        self.assertIsInstance(self.r.id, str)
+        self.assertIsInstance(self.r.created_at, datetime.datetime)
+        self.assertIsInstance(self.r.updated_at, datetime.datetime)
