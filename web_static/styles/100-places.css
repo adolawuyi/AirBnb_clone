@@ -1,5 +1,26 @@
 .amenities li{
     list-style: none;
+    background-image: url("/images/icon_pets.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: -2em;
+    margin-top: 15px;
+    padding-left: 50px;
+
+}
+.amenities li:nth-child(2){
+    list-style: none;
+    background-image: url("/images/icon_wifi.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.amenities li:nth-child(3){
+    list-style: none;
+    background-image: url("/images/icon_tv.png");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 .amenities h2{
     font-size: 16px;
@@ -7,6 +28,9 @@
     margin-top: 40px;
     text-align: left;
     height: 0px;
+}
+.reviews li{
+    list-style: none;
 }
 .reviews p{
     font-size: 12px;
