@@ -1,0 +1,27 @@
+.amenities li{
+    list-style: none;
+}
+.amenities h2{
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-top: 40px;
+    text-align: left;
+    height: 0px;
+}
+.reviews p{
+    font-size: 12px;
+}
+.amenities h3{
+    font-size: 16px;
+}
+.reviews h3{
+    font-size: 14px;
+}
+.reviews h2{
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-top: 40px;
+    text-align: left;
+    height: 0px;
+}
+
