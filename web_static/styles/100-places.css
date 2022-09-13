@@ -3,7 +3,6 @@
     background-image: url("/images/icon_pets.png");
     background-repeat: no-repeat;
     height: 40px;
-    display: flex;
     align-items: center;
     margin-left: -2em;
     margin-top: 15px;
@@ -31,6 +30,7 @@
 }
 .reviews li{
     list-style: none;
+    margin-left: -2em;
 }
 .reviews p{
     font-size: 12px;

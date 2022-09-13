@@ -1,0 +1,6 @@
+.places .amenities li{
+    display: flex;
+}
+.places .reviews li{
+    display: inline-block;
+}
